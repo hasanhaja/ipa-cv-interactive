@@ -1,0 +1,2 @@
+# OpenCV Interactive GUI
+This is the second lab from the Image Processing practicals. This was written using OpenCV 4.1.1, so if an older version of OpenCV is being used, the name of functions might be different.
