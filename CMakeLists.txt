@@ -6,5 +6,5 @@ include_directories(${OpenCV_INCLUDE_DIRS})
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(ipa_cv_interactive src/main.cpp)
+add_executable(ipa_cv_interactive src/main.cpp src/ColorQuery.cpp src/ColorQuery.h src/Color.h)
 target_link_libraries(ipa_cv_interactive ${OpenCV_LIBS})

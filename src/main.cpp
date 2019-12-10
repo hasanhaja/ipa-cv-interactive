@@ -53,7 +53,7 @@ void color_query_mouse_callback(int event, int x, int y, int flags, void* img) {
     int col = x;
 
     switch (event) {
-        case EVENT_LBUTTONDOWN:
+        case EVENT_RBUTTONDOWN:
             cout << "Color information at image location (" << x << "," << y << "): ";
             for (int chan = 0; chan < 3; chan++) {
                 auto value = (unsigned int) ((Mat *) img)->at<Vec3b>(row, col)[chan];
@@ -61,7 +61,7 @@ void color_query_mouse_callback(int event, int x, int y, int flags, void* img) {
             }
             cout << endl;
             break;
-        case EVENT_RBUTTONDOWN:
+        case EVENT_LBUTTONDOWN:
             cout << "Color information at image location (" << x << "," << y << ") set to White.";
             for (int chan = 0; chan < 3; chan++) {
                 ((Mat *) img)->at<Vec3b>(row, col)[chan] = 255;
