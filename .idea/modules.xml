@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/opencv-interactive.iml" filepath="$PROJECT_DIR$/.idea/opencv-interactive.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ipa-cv-interactive.iml" filepath="$PROJECT_DIR$/.idea/ipa-cv-interactive.iml" />
     </modules>
   </component>
 </project>
